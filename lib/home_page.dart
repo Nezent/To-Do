@@ -14,6 +14,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   @override
+  void initState() {
+    super.initState();
+    setState(() {});
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       endDrawer: SizedBox(
@@ -113,7 +119,7 @@ class _HomePageState extends State<HomePage> {
       ),
       appBar: AppBar(
         backgroundColor: const Color(0xff1F1F1F),
-        title: const Text("CSE-20"),
+        title: const Text("ECE-20"),
         centerTitle: true,
       ),
       body: Padding(
